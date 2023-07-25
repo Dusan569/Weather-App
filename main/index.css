@@ -1,0 +1,119 @@
+/* *{
+    border: 1px solid red;
+} */
+body{
+    padding: 0px;
+    margin: 0px;
+    background-image: url('/images/back.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+img{
+    width: 100px;
+}
+#main{
+    width: 650px;
+    height: 190px;
+    border: 2px solid grey;
+    border-radius: 7px;
+    position: absolute;
+    top: 15%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    justify-content: center;
+    background-image: linear-gradient(to bottom right, rgba(217, 217, 217, 0.8), rgba(111, 111, 111, 0.8));
+    border: none;
+}
+#content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10px;
+    width: 100%;
+}
+#sub-content{
+    width: 650px;
+    height: 690px;
+    border: 2px solid grey;
+    border-radius: 7px;
+    position: absolute;
+    top: 62%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    justify-content: center;
+    background-image: linear-gradient(to bottom right, rgba(217, 217, 217, 0.8), rgba(111, 111, 111, 0.8));
+    border: none;
+    opacity: 0;
+    transition: 0.8s;
+}
+.mb-3{
+    width: 500px;
+    margin-top: 10px;
+    text-align: center;
+}
+.btn-success{
+    margin-top: 10px;
+}
+hr{
+    width: 100%;
+}
+#response-content{
+    text-align: center;
+    width: 100%;
+}
+ul img{
+    width: 22px;
+    margin-right: 10px;
+}
+#map {
+    margin-top: 10px;
+    width: 100%;
+    height: 397px; 
+    border-radius: 7px;
+}
+#list-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.list-group li{
+    border: none;
+    text-align: start;
+}
+.list-group li{
+    background-color: transparent; 
+    font-size: 18px;
+}
+#floatingInput{
+    background-color:rgba(217, 217, 217, 0.7);
+    border: none;
+    border-radius: 10px;
+}
+#floatingInput:focus{
+    background-color: transparent;
+    background-color:rgba(217, 217, 217, 0.4);
+    transition: 0.8s;
+}
+#label-input{
+    transition: 0.5s;
+}
+.btn:hover{
+    border-radius: 20px;
+    transition: 0.5s;
+}
+p{
+    font-size: 20px;
+}
+#temp{
+    font-size: 30px;
+}
+.text{
+    padding: 5px;
+    background-color: rgba(21, 21, 21, 0.8);
+    color: rgb(214, 214, 214);
+    border-radius: 5px;
+}

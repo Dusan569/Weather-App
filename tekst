@@ -1,0 +1,56 @@
+// niz = response.data;
+
+        // console.log(niz);
+
+        // let latitude = niz[0].lat;
+        // let londitude = niz[0].lon;
+
+        // console.log(latitude + " " + londitude);
+
+        // axios.get(`https://api.openweathermap.org/data/2.5/weather?lat=${latitude}&lon=${londitude}&units=metric&appid=91ee46f30365bc76661c87560236a13b`,{}).then((response) => {
+        //     podaciOGradu = response.data;
+
+        //     console.log(podaciOGradu);
+        //     let visibility = podaciOGradu.visibility * 0.001;
+
+        //     let sunrise = unixTimeSunrise(podaciOGradu.sys.sunrise);
+
+        //     let sunset = unixTimeSunset(podaciOGradu.sys.sunset);
+
+        //     let date = unixTimeDate(podaciOGradu.sys.sunset);
+
+        //     let icon = podaciOGradu.weather[0].icon;
+
+        //     let cityDetails = `
+        //         <div id="response-content">
+        //             <h2 id="city">${niz[0].name}</h2>
+        //             <img src='https://openweathermap.org/img/wn/${icon}@2x.png'><span id="temp">${podaciOGradu.main.temp}&#8451</span>
+        //             <p id="temp-feels">Feels like <span>${podaciOGradu.main.feels_like}&#8451.</span> <span id="weather-main">${podaciOGradu.weather[0].main}.</span><span id="weather-desc"> ${podaciOGradu.weather[0].description}</span></p>
+        //             <div id="list-div">
+        //                 <ul class="list-group list-group-flush">
+        //                     <li class="list-group-item"><img src="/images/sunrise.png" alt="">Sunrise: ${sunrise}</li>
+        //                     <li class="list-group-item"><img src="/images/icons8-wind-50.png" alt="">Wind: ${podaciOGradu.wind.speed}m/s W</li>
+        //                     <li class="list-group-item"><img src="/images/icons8-pressure-24.png" alt="">Pressure: ${podaciOGradu.main.pressure}Pa</li>
+        //                     <li class="list-group-item"><img src="/images/icons8-humidity-50.png" alt="">Humidity: ${podaciOGradu.main.humidity}</li>
+        //                 </ul>
+        //                 <ul class="list-group list-group-flush">
+        //                     <li class="list-group-item"><img src="/images/sunset.png" alt="">Sunset: ${sunset}</li>
+        //                     <li class="list-group-item"><img src="/images/icons8-temperature-low-32.png" alt="">Lowest temp: ${podaciOGradu.main.temp_min}&#8451</li>
+        //                     <li class="list-group-item"><img src="/images/icons8-temperature-low-32.png" alt="">Highest temp: ${podaciOGradu.main.temp_max}&#8451</li>
+        //                     <li class="list-group-item"><img src="/images/icons8-eye-30.png" alt="">Visibility: ${visibility}km</li>
+        //                 </ul>
+        //             </div>
+
+        //             <div id="map">
+
+        //             </div>
+        //         </div>
+        //     `;
+
+        //     resoponseContent.innerHTML = cityDetails;
+        //     resoponseContent.style.opacity = 1;
+
+        //     map(latitude, londitude);
+
+        //     })
+        // })
