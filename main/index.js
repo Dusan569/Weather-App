@@ -1,11 +1,3 @@
-// get lat and lon : http://api.openweathermap.org/geo/1.0/direct?q=${city name},${state code},${country code}&limit=${limit}&appid=91ee46f30365bc76661c87560236a13b
-
-// curren weather data: https://api.openweathermap.org/data/2.5/weather?lat=${latitude}&lon=${londitude}&units=metric&appid=91ee46f30365bc76661c87560236a13b
-
-// daily forecast data:  https://api.openweathermap.org/data/2.5/forecast/daily?lat=${lat}&lon=${lon}&cnt=${cnt}&appid=91ee46f30365bc76661c87560236a13b
-
-// icon : https://openweathermap.org/img/wn/${icon}@2x.png
-
 let searchCity = document.getElementById("floatingInput");
 let resoponseContent = document.getElementById("sub-content");
 let searchBtn = document.getElementById("search-btn");
@@ -161,8 +153,6 @@ function unixTime(time){
     }else{
         session = "AM";
     }
-
-    // let todaysDate = date.toLocaleDateString('en-ca');
 
     return todaysDateH + ":" + todaysDateM + " " + session;
 }
